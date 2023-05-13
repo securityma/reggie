@@ -1,0 +1,7 @@
+package com.kobe.reggie.service;
+
+import com.baomidou.mybatisplus.extension.service.IService;
+import com.kobe.reggie.entity.SetmealDish;
+
+public interface SetmealDishService extends IService<SetmealDish> {
+}
