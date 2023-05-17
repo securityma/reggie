@@ -7,4 +7,5 @@ import com.kobe.reggie.entity.Dish;
 public interface DishService extends IService<Dish> {
     public void saveWithFlavor(DishDto dishDto);
 
+    void updatewithFlavor(DishDto dishDto);
 }
